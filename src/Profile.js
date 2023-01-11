@@ -20,6 +20,7 @@ const Profile = (props) => {
   }
   let created_date=(props.year);
    let my_array = created_date.split("-");
+  console.log(props.year);
 
   let created_year =Number(my_array[0]);
 
