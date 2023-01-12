@@ -41,8 +41,7 @@ const Profile = (props) => {
         {props.name} 
         </h2> 
         <p className='login'>@{props.login}</p>
-//         <p className='year'>Member since {since} years ago</p>
-        
+
         </div>
         
         
