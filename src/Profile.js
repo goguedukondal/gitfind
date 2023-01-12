@@ -18,18 +18,18 @@ const Profile = (props) => {
   const clicked3 = _ =>{
     setSuccess(3);
   }
-  let created_date=(props.year);
-   let my_array = created_date.split("-");
-  console.log(props.year);
+//   let created_date=(props.year);
+//    let my_array = created_date.split("-");
+//   console.log(props.year);
 
-  let created_year =Number(my_array[0]);
+//   let created_year =Number(my_array[0]);
 
   
 
-  const d = new Date();
-  let current_year = d.getFullYear();
+//   const d = new Date();
+//   let current_year = d.getFullYear();
 
-   var since = current_year-created_year;
+//    var since = current_year-created_year;
 
 
   return (
@@ -41,7 +41,7 @@ const Profile = (props) => {
         {props.name} 
         </h2> 
         <p className='login'>@{props.login}</p>
-        <p className='year'>Member since {since} years ago</p>
+//         <p className='year'>Member since {since} years ago</p>
         
         </div>
         
